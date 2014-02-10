@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>WDI Prework</title>
+    <title>The Web Developer Handbook</title>
     <link rel="stylesheet" href="/css/main.css" media="all">
   </head>
   <body>
@@ -24,7 +24,59 @@
         <h2>Sidebar</h2>
         <nav role="navigation">
           <h3>Topic/page navigation</h3>
-          <!-- tree of links here -->
+          <ol role="menu">
+              <li role="presentation">
+                <a href="/primer/anatomy-of-a-web-page" role="menuitem">Anatomy of a Web page</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/the-osi-model" role="menuitem">The OSI model</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/fundamentals-of-html" role="menuitem">Fundamentals of HTML</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/basic-page-structure" role="menuitem">Basic page structure</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/the-document-outline" role="menuitem">The document outline</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/aria-and-roles" role="menuitem">ARIA and roles</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/personas-stories-wireframes" role="menuitem">Personas, etc.</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/architecting-the-page" role="menuitem">Architecting the page</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the content</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/first-review" role="menuitem">First review</a>
+              </li>
+
+              <!-- TODO: Add links to page sections and subsections -->
+              <li role="presentation">
+                <div class="current-page" role="menuitem">[-PAGE PLACEHOLDER-]</div>
+                <ol role="menu">
+                  <li role="presentation">
+                    <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SECTION-]</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SECTION-]</a>
+                    <ol role="menu">
+                      <li role="presentation">
+                        <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SUBSECTION-]</a>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+            </ol>
         </nav>
       </aside>
       <article id="lesson">
