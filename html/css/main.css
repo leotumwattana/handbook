@@ -99,7 +99,40 @@ dl.faq dt {
 dl.faq dd { margin: 0 40px 20px; }
 
 
-
+figure { padding: 15px; }
+figcaption {
+  font-size: 22px;
+  margin: 0 0 5px -15px;
+  color: hsla( 194, 66.4%, 53.3%, 1 );
+}
+dl.persona dt {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px;
+  color: hsla( 0, 0.0%, 100.0%, 1 );
+  border-top: 1px solid hsla( 0, 0.0%, 100.0%, 1 );
+}
+dl.persona dd {
+  font-size: 16px;
+  padding: 12px 10px;
+  background-color: hsla( 0, 0.0%, 100.0%, 1 );
+}
+dl.persona div { margin: 15px; }
+#student-persona div,
+#student-persona dl.persona dt {
+  background-color: hsla( 120, 39.6%, 46.0%, 1 );
+}
+#student-persona img { border: 1px solid hsla( 120, 39.6%, 46.0%, 1 ); }
+#instructor-persona div,
+#instructor-persona dl.persona dt {
+  background-color: hsla( 208, 55.9%, 44.5%, 1 );
+}
+#instructor-persona img { border: 1px solid hsla( 208, 55.9%, 44.5%, 1 ); }
+#guest-persona div,
+#guest-persona dl.persona dt {
+  background-color: hsla( 35, 84.5%, 54.3%, 1 );
+}
+#guest-persona img { border: 1px solid hsla( 35, 84.5%, 54.3%, 1 ); }
 
 
 
